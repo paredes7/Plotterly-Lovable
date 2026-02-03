@@ -8,7 +8,7 @@ export default function Offers({ ofertas = [] }) {
    
     const dataToRender = ofertas.length > 0 ? ofertas : OFFERS_MOCK;
     return (
-        <section className="bg-white">
+        <section className="bg-[#2196F3] min-h-screen py-12">
             <Head title="Nuestros Servicios" />
             
 
