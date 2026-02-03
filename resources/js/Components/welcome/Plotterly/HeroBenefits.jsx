@@ -33,7 +33,7 @@ export default function HeroBenefits() {
                 </h2>
 
                 {/* Grid alineado: Usamos gap-6 para un look más compacto y centrado */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 -mt-5 items-stretch">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 -mt-5 items-stretch">
                     {benefits.map((benefit, index) => (
                         <BenefitCard key={index} {...benefit} />
                     ))}
