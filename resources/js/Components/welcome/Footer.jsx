@@ -13,6 +13,7 @@ export default function Footer() {
                 </svg>
             ),
         },
+    
         {
             name: "Instagram",
             href: "#",

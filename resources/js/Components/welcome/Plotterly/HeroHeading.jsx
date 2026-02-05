@@ -10,13 +10,11 @@ export default function HeroHeading() {
                 transition={{ duration: 0.6 }}
                 className="max-w-5xl"
             >
-                {/* Título Principal: Blanco, Bold y Grande */}
                 <h1 className="text-white text-3xl md:text-[50px] font-extrabold leading-tight mb-8">
                     Plotterly Helps Commercial Contractors <br className="hidden md:block" />
                     Generate Better Leads
                 </h1>
 
-                {/* Subtexto: Blanco con opacidad sutil para jerarquía */}
                 <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto -mt-3 leading-relaxed font-medium">
                     Plotterly is a lead generation platform built for commercial contractors who need 
                     targeted B2B prospects, not random lists.

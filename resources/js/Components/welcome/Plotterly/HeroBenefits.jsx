@@ -25,14 +25,14 @@ export default function HeroBenefits() {
 
     return (
         <section className="bg-[#2196F3] px-6 py-[26px]">
-            {/* Ajustamos el max-w a 5xl para que coincida con la tarjeta blanca de arriba */}
+            
             <div className="container mx-auto max-w-5xl">
                 
                 <h2 className="text-white text-2xl md:text-[22px] font-bold text-center mb-12">
                     With Plotterly, your team can:
                 </h2>
 
-                {/* Grid alineado: Usamos gap-6 para un look más compacto y centrado */}
+            
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 -mt-5 items-stretch">
                     {benefits.map((benefit, index) => (
                         <BenefitCard key={index} {...benefit} />
