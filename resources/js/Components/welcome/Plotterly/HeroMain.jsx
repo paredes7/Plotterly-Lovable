@@ -41,7 +41,7 @@ export default function HeroMain() {
                     href="https://plotterly.com/register"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-[#eb5d4b] text-white text-lg md:text-xl font-bold px-12 py-5 rounded-2xl shadow-[0_20px_40px_rgba(255,107,87,0.4)] flex items-center gap-4 transition-all hover:shadow-[0_25px_50px_rgba(255,107,87,0.5)] cursor-pointer"
+                    className="bg-[#eb5d4b] text-white text-lg whitespace-nowrap md:text-xl font-bold px-12 py-5 rounded-2xl shadow-[0_20px_40px_rgba(255,107,87,0.4)] flex items-center gap-4 transition-all hover:shadow-[0_25px_50px_rgba(255,107,87,0.5)] cursor-pointer"
                 >
                     Create Your Free Account
                     <span className="text-2xl">→</span>

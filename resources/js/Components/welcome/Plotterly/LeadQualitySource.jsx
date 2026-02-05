@@ -57,7 +57,9 @@ export default function LeadQualitySource() {
                         onClick={() => window.open('https://plotterly.com/register', '_blank')}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="bg-[#ef4444] text-white text-lg font-bold px-10 py-5 rounded-2xl shadow-[0_15px_30px_rgba(239,68,68,0.4)] flex items-center gap-3 mb-10 transition-shadow hover:shadow-[0_20px_40px_rgba(239,68,68,0.5)]"
+                        className="bg-[#ef4444] text-white text-lg font-bold px-10 py-5
+                         rounded-2xl shadow-[0_15px_30px_rgba(239,68,68,0.4)] flex items-center whitespace-nowrap
+                         gap-3 mb-10 transition-shadow hover:shadow-[0_20px_40px_rgba(239,68,68,0.5)]"
                     >
                         🚀 Start Free Today
                         <span className="text-xl">→</span>
