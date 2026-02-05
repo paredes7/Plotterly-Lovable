@@ -1,5 +1,4 @@
-import Layout from '@/Layouts/MainLayout';
-import Offers from '@/Components/welcome/Offers/Offers';
+
 import ProblemSection from '@/Components/welcome/Plotterly/ProblemSection';
 import HeroHeading from '@/Components/welcome/Plotterly/HeroHeading';
 import HeroBenefits from '@/Components/welcome/Plotterly/HeroBenefits';
